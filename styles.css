@@ -20,7 +20,6 @@ body{
     font-size: 15px;
 }
 
-/* Desktop */
 #container{
     width: 100%;
     height: 610px;
@@ -109,7 +108,6 @@ body{
 .attribution a { color: hsl(228, 45%, 44%); }
 
 
-/* Mobile */
 @media (max-width: 376px) {
 
     #container{
