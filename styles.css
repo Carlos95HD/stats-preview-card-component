@@ -29,7 +29,7 @@ body{
     margin-top: 6%;
 }
 
-#description {
+.description {
     width: 27%;
     height: 70%;
     background-color: hsl(244, 38%, 16%);
@@ -39,7 +39,7 @@ body{
     padding-right: 50px;
 }
 
-#description h1 {
+.description h1 {
     font-size: 34px;
     font-family: Lexend Deca;
     color: hsl(0, 0%, 100%);
@@ -50,7 +50,7 @@ body{
     color: hsl(277, 64%, 61%);
 }
 
-#description p{
+.description p{
     font-size: 15px;
     font-family: static;
     color:hsla(0, 0%, 100%, 0.75);
@@ -58,7 +58,7 @@ body{
     margin-top: 30px;
 }
 
-#description p:last-child{
+.description p:last-child{
     font-size: 12px;
     text-transform: uppercase;
     margin: 0px;
@@ -76,7 +76,7 @@ body{
     color: hsla(0, 0%, 100%, 0.6);
 }
 
-.stat h3 {
+.stat h3{
     font-size: 20px;
     font-family: Lexend Deca;
     color: hsl(0, 0%, 100%);
@@ -85,7 +85,7 @@ body{
 }
 
 #img1{
-    /* width: 28%; */
+    /* width: 40%; */
     height: 70%;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -108,7 +108,7 @@ body{
 .attribution a { color: hsl(228, 45%, 44%); }
 
 
-@media (max-width: 376px) {
+@media (max-width: 866px) {
 
     #container{
         display: grid;
@@ -118,7 +118,8 @@ body{
         margin: 0px auto;
     }
 
-    #description{
+    .description{
+        width: 27%;
         grid-row: 2/2;
         padding: 30px;
         margin: 0px;
@@ -130,18 +131,18 @@ body{
         text-align: center;
     }
 
-    #description h1{
+    .description h1{
         margin-top: 0px;
         font-size: 27px;
 
     }
 
-    #description p{
+    .description p{
         font-size: 15px;
         margin-top: 5%;
     }
 
-    #description p:last-child{
+    .description p:last-child{
         font-size: 12px;
     }
 
@@ -168,3 +169,17 @@ body{
         padding: 5px;
     }
 }
+
+@media (min-width: 867px) and (max-width: 1280px){
+  .description h1{
+    font-size: 30px;
+  }
+
+  .stat h3{
+    margin-top: 0px;
+  }
+
+  #img{
+    width: 40%;
+  }
+};
